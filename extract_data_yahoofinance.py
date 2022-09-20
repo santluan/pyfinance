@@ -1,7 +1,7 @@
 from yahooquery import Ticker
 import matplotlib.pyplot as plt
 
-# Coleta os dados do fundo
+# Coleta os dados da ação
 petr = Ticker("PETR4.SA")
 
 # resgata todo o historico de cotacoes
